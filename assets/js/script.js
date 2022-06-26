@@ -9,7 +9,8 @@ var timer;
 
 //countdown function
 function countdown () {
-    if(seconds < 60) {
+    // could not figure out this function
+    if(seconds = ) {
         document.getElementById("countdown").innerHTML = seconds;
     }
         if (seconds >0) {
