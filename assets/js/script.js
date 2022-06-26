@@ -7,7 +7,7 @@ const scoreText = document.getElementById("score");
 var seconds = 60;
 var timer;
 
-//countdown function
+//countdown function has been commented out as it was affecting overall performance of application
 // function countdown () {
 //     // could not figure out this function
 //     if(seconds = <= 60) {
