@@ -8,27 +8,27 @@ var seconds = 60;
 var timer;
 
 //countdown function
-function countdown () {
-    // could not figure out this function
-    if(seconds = ) {
-        document.getElementById("countdown").innerHTML = seconds;
-    }
-        if (seconds >0) {
-            seconds--;
-        } else {
-            clearInterval(countdown);
-   //TUTOR!! //goes to high-scores page when timer ends        
-        }
-}
+// function countdown () {
+//     // could not figure out this function
+//     if(seconds = <= 60) {
+//         document.getElementById("countdown").innerHTML = seconds;
+//     }
+//         if (seconds >0) {
+//             seconds--;
+//         } else {
+//             clearInterval(countdown);
+//    //TUTOR!! //goes to high-scores page when timer ends        
+//         }
+// }
 
-    //TUTOR!! click event to start countdown
-document.getElementById("countdown").onclick = function() {
-    if(!countdown) {
-        timer = window.setInterval(function(){
-            countdown();
-        }, 1000);
-    }
-}
+//     //TUTOR!! click event to start countdown
+// document.getElementById("countdown").onclick = function() {
+//     if(!countdown) {
+//         timer = window.setInterval(function(){
+//             countdown();
+//         }, 1000);
+//     }
+// }
 
 let currentQuestion = {};
 let acceptingAnswers = false;
